@@ -20,4 +20,7 @@
 返回：
 6、批量更新
 接口：http://10.0.33.44:18085/Spring-MySQL/Update/BatchUpdate.do
-参数：{"sports":"run","newSports":"pinaple"}
+参数：{"sports":"run","newSports":"pineapple"}
+7、删除
+接口：http://10.0.33.44:18085/Spring-MySQL/Delete/Delete.do
+参数：{"userId":"ahao111"}

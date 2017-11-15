@@ -39,7 +39,6 @@ public class UpdateDaoImpl implements IUpdateDao {
 		querySql.append("select * from like_table where sports=?");
 		Object[] params = {sports};
 		final List<Map<String, Object>> listLikePojo = jdbcTemplate.queryForList(querySql.toString(), params);
-		
 		StringBuilder updateSql = new StringBuilder();
 		updateSql.append("update like_table set fruits=? where sports=?");
 		jdbcTemplate.batchUpdate(updateSql.toString(), new BatchPreparedStatementSetter() {
