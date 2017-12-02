@@ -24,3 +24,7 @@
 7、删除
 接口：http://10.0.33.44:18085/Spring-MySQL/Delete/Delete.do
 参数：{"userId":"ahao111"}
+8、批量添加
+接口：http://10.0.33.44:18085/Spring-MySQL/Add/AddNormal.do
+参数：{"userId":"ahao","userName":"阿豪","sports":"run","fruits":"apple"}
+返回：

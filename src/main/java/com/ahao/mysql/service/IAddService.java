@@ -8,4 +8,6 @@ public interface IAddService {
 
     JSONObject saveNamedParameter(JSONObject jsonParam);
 
+	JSONObject batchSave(JSONObject jsonParam);
+
 }

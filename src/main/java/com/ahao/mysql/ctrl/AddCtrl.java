@@ -36,4 +36,15 @@ public class AddCtrl {
         JSONObject jsonParam = HttpTool.readJSONParam(request);
         return iAddService.saveNamedParameter(jsonParam);
     }
+    
+    /**
+     * 批量添加
+     * 2017-12-2 12:15:14
+     * */
+    @ResponseBody
+    @RequestMapping("/BatchSave")
+    public JSONObject batchSave(HttpServletRequest request) {
+        JSONObject jsonParam = HttpTool.readJSONParam(request);
+        return iAddService.batchSave(jsonParam);
+    }
 }
