@@ -1,1 +1,8 @@
-/target/
+
+#myignore
+[\.]*
+!.gitignore
+bin/
+build/
+target/
+log/
